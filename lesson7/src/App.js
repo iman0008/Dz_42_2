@@ -7,6 +7,7 @@ import PokemonPage from './pages/pokemonPage/PokemonPage';
 import FormPage from './pages/formPage/FormPage';
 import Dz6 from './pages/dz6/Dz6';
 import Fetch from './pages/fetch/Fetch';
+import DZ7 from "./pages/DZ7/DZ7";
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
             {/*<UserPage/>*/}
             {/*<PokemonPage/>*/}
             {/*<FormPage/>*/}
-            <Dz6/>
-            <Fetch/>
+            {/*<Dz6/>*/}
+            {/*<Fetch/>*/}
+            <DZ7/>
         </div>
 
     );

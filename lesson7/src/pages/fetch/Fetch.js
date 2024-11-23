@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import classes from "./Fetch.module.scss";
 import axios from "axios";
 
-const Base_URL = "http://localhost:5000/student";
+const Base_URL = "http://localhost:8000/student";
+
 const Fetch = () => {
   const [students, setStudents] = useState([]);
   const [users, setUsers] = useState([]);
+
   console.log(users, "users");
+
   const getStudents = async () => {
     const response = await fetch(Base_URL);
     const data = await response.json();
@@ -73,7 +76,7 @@ const Fetch = () => {
   useEffect(() => {
     getStudents().then((data) => setStudents(data));
     // getUsers()
-    getUsers().then((response) => setUsers(response));
+    // getUsers().then((response) => setUsers(response));
     // getAxios();
   }, []);
 
@@ -83,6 +86,7 @@ const Fetch = () => {
       <button onClick={() => postAxios()}>postAxios</button>
       <button onClick={() => putAxios(20)}>putAxios</button>
       <button onClick={() => patchAxios(20)}>patchAxios</button>
+
       {/*{*/}
       {/*    users.map(user => <div className={classes.student} key={user.id}>*/}
       {/*        <div>id: {user.id}</div>*/}
