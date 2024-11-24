@@ -1,0 +1,156 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "surname": "Акунов",
+      "name": "Нурислан",
+      "groupId": 2
+    },
+    {
+      "id": "2",
+      "surname": "Алиев",
+      "name": "Тимур",
+      "groupId": 2
+    },
+    {
+      "id": "3",
+      "surname": "Алимжанов",
+      "name": "Байэл",
+      "groupId": 3
+    },
+    {
+      "id": "4",
+      "surname": "Алишеров",
+      "name": "Чынгыз",
+      "groupId": 4
+    },
+    {
+      "id": "5",
+      "surname": "Аширбеков",
+      "name": "Данияр",
+      "groupId": 3
+    },
+    {
+      "id": "10",
+      "surname": "Ергалиев",
+      "name": "Ерасыл",
+      "groupId": 4
+    },
+    {
+      "id": "11",
+      "surname": "Жакыпов",
+      "name": "Мирболот",
+      "groupId": 2
+    },
+    {
+      "id": "12",
+      "surname": "Жолчубекова",
+      "name": "Айжан",
+      "groupId": 2
+    },
+    {
+      "id": "13",
+      "surname": "Зулпукаров",
+      "name": "Нуртилек",
+      "groupId": 4
+    },
+    {
+      "id": "14",
+      "surname": "Кадырбеков",
+      "name": "Эрлан",
+      "groupId": 3
+    },
+    {
+      "surname": "Сариев",
+      "name": "Кубанычбек",
+      "id": "20"
+    },
+    {
+      "id": "23",
+      "surname": "Сариев",
+      "name": "Бактыбек",
+      "groupId": 4
+    },
+    {
+      "id": "24",
+      "surname": "Сариев",
+      "name": "Бактыбек",
+      "groupId": 4
+    },
+    {
+      "id": "25",
+      "surname": "Сариев",
+      "name": "Бактыбек",
+      "groupId": 4
+    },
+    {
+      "id": "26",
+      "surname": "Сариев",
+      "name": "Бактыбек",
+      "groupId": 4
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "group": "БиПЗИм(дот)-1-22"
+    },
+    {
+      "id": "2",
+      "group": "ИВТСдот-1-22"
+    },
+    {
+      "id": "3",
+      "group": "ИСТд-1-22"
+    },
+    {
+      "id": "4",
+      "group": "ПЗИдот-1-22"
+    }
+  ],
+  "user": [
+    {
+      "name": "Bakyt",
+      "email": "wefwef@wefwef.wef",
+      "password": "wef",
+      "password2": "wef",
+      "id": "b746"
+    },
+    {
+      "id": "5fdb",
+      "name": "Bakyt",
+      "email": "wefwef@fwefwe.wef",
+      "password": "wef",
+      "password2": "wef"
+    },
+    {
+      "id": "f33e",
+      "name": "Bakyt",
+      "email": "wefwef@fwefwe.wef",
+      "password": "wefwefwef",
+      "password2": "wefwefwef"
+    }
+  ],
+  "todo": [
+    {
+      "id": "3",
+      "title": "wefwefwefwef",
+      "completed": true
+    },
+    {
+      "id": "4",
+      "title": "wefwefwefwef",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "title": "wefwefwefwefwefwef",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "title": "wefwefwef",
+      "completed": false
+    }
+  ]
+}

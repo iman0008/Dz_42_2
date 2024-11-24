@@ -1,0 +1,11 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+input[aria-invalid='true'] {
+    border-color: red;
+    background-color: red;
+}
